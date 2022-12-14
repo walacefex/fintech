@@ -1,0 +1,152 @@
+:root {
+  --bg-color: #0b0f19;
+  --btn-color: linear-gradient(
+    157.81deg,
+    #def9fa -43.27%,
+    #bef3f5 -21.24%,
+    #9dedf0 12.19%,
+    #7de7eb 29.82%,
+    #5ce1e6 51.94%,
+    #33bbcf 90.29%
+  );
+  --text-info: radial-gradient(
+    64.18% 64.18% at 71.16% 35.69%,
+    #def9fa 0.89%,
+    #bef3f5 17.23%,
+    #9dedf0 42.04%,
+    #7de7eb 55.12%,
+    #5ce1e6 71.54%,
+    #33bbcf 100%
+  );
+  --bg-hero: radial-gradient(
+    116.18% 118% at 50% 100%,
+    rgba(99, 102, 241, 0.1) 0%,
+    rgba(218, 70, 239, 0.05) 41.83%,
+    rgba(241, 244, 253, 0.07) 82.52%
+  );
+  --bg-card-info: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(51, 51, 51, 1) 49%,
+    rgba(66, 66, 66, 1) 100%
+  );
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+}
+
+body,
+.header {
+  background-color: var(--bg-color);
+}
+.s-hero {
+  background: var(--bg-hero);
+}
+.btn-principal-menu {
+  background: var(--btn-color);
+  font-weight: bold;
+  transition: background-color 0.2s ease;
+  border-radius: 10px;
+}
+.btn-principal {
+  background: var(--btn-color);
+  font-weight: bold;
+  transition: background-color 0.2s ease;
+  border-radius: 10px;
+  width: 250px;
+}
+.btn-color:hover {
+  filter: brightness(90%);
+}
+.image-dashboard {
+  width: 100%;
+  max-width: 320px;
+}
+.s-info-bloco p {
+  font-size: 1.5rem;
+}
+.s-info-bloco p > span {
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  background: var(--text-info);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+.s-info-bloco_title {
+  font-size: 2rem;
+  line-height: 2.5rem;
+}
+.s-info_card {
+  height: 110px;
+}
+.s-info_vantagens {
+  max-width: 470px;
+  width: 450px;
+}
+.s-info_vantagens:hover {
+  background: rgba(255, 255, 255, 0.04);
+  box-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
+  border-radius: 20px;
+}
+.s-info-vantagens_bgicon {
+  width: 65px;
+  height: 65px;
+  background: rgba(9, 151, 124, 0.1);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.s-info-vantagens_icone {
+  width: 40px;
+  height: 40px;
+}
+
+.footer {
+  background: var(--bg-hero);
+}
+.footer-logo {
+  width: 100px;
+}
+
+/*Tela de Login*/
+.s-login {
+  background: var(--bg-hero);
+}
+.bg-image-login {
+  background-image: url("../image/pexels-helena-lopes-933964.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 75vh;
+  max-width: 100%;
+}
+.s-login-title {
+  text-transform: uppercase;
+  background: var(--text-info);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+}
+
+/*Dashboard*/
+.s-dashboard {
+  display: block;
+  width: 100%;
+  max-width: 15.625rem !important;
+  overflow-y: auto;
+  padding: 0;
+  box-shadow: none;
+  overflow: hidden !important;
+  overflow-anchor: none;
+}
+.s-dashboard-header_logo {
+  width: 100px;
+}

@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fintech</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header class="container-fluid">
+      <nav class="header navbar navbar-dark navbar-expand-lg fixed-top">
+        <div class="container">
+          <a href="index.html" class="navbar-brand pe-3 text-white">
+            <img src="image/Logo.svg" width="47" alt="Fintech" />
+            Fintech
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasDarkNavbar"
+            aria-controls="offcanvasDarkNavbar"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="offcanvas offcanvas-end text-bg-dark"
+            tabindex="-1"
+            id="offcanvasDarkNavbar"
+            aria-labelledby="offcanvasDarkNavbarLabel"
+          >
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">
+                Fintech
+              </h5>
+              <button
+                type="button"
+                class="btn-close btn-close-white"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="index.html"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Sobre Fintech</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Soluções para você</a>
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="btn btn-principal-menu p-2 ms-lg-2"
+                    href="login.html"
+                    type="submit"
+                    >Logar agora</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section class="s-hero overflow-hidden pt-5">
+      <div class="container pt-3 pt-sm-4 pt-xl-5">
+        <div class="row pt-md-2 pt-lg-5">
+          <div
+            class="col-md-5 d-flex flex-column mt-md-4 pt-5 pb-3 pb-sm-4 py-md-5"
+          >
+            <h1 class="display-4 text-center text-md-start mb-4 fw-semibold">
+              Gerencie a sua vida financeira em um clique!
+            </h1>
+            <p
+              class="fs-lg text-center text-md-start pb-2 pb-md-3 mb-4 mb-lg-5"
+            >
+              Obtenha todo controle sobre o seu dinheiro de uma forma simples e
+              prática. Um método que vai revolucionar a sua vida hoje mesmo.
+            </p>
+            <div
+              class="d-flex flex-column flex-sm-row justify-content-center justify-content-md-start"
+            >
+              <a
+                href="login.html"
+                class="btn btn-principal btn-lg px-3 py-2 me-sm-3 me-lg-4 mb-3"
+              >
+                Acesse agora mesmo
+              </a>
+            </div>
+          </div>
+          <div class="col-md-7 align-self-end">
+            <div class="position-relative mt-4 pb-3 pt-4 mx-auto me-md-0">
+              <div class="ratio ratio-1x1"></div>
+              <img
+                src="image/dashboard.png"
+                class="position-absolute top-0 start-0 zindex-2 image-dashboard"
+                alt="Dashboard de cartões"
+              />
+              <img
+                src="./image/dashboard2.png"
+                class="position-absolute top-0 start-50 image-dashboard"
+                alt="dashboard com gastos totais"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="s-info container py-2">
+      <div class="row pt-md-2 pt-lg-5 pb-lg-5 pb-md-2">
+        <div class="s-info-bloco col-md-4">
+          <p>+ 1000 <span class="s-info-bloco_text">Usuários ativos</span></p>
+        </div>
+        <div class="s-info-bloco col-md-4">
+          <p>+ 20 <span class="s-info-bloco_text">Bancos parceiros</span></p>
+        </div>
+        <div class="s-info-bloco col-md-4">
+          <p>
+            + 10000
+            <span class="s-info-bloco_text">Transações controladas </span>
+          </p>
+        </div>
+      </div>
+
+      <div class="row pt-md-2 pt-lg-5 pb-lg-5 pb-md-2">
+        <div class="col-md-5">
+          <h2 class="s-info-bloco_title fw-bold">
+            Administramos a sua saúde financeira e você planeja o seu futuro!
+          </h2>
+          <p class="my-4">
+            Com a Fintech, você pode melhorar sua vida financeira controlado de
+            ponta a ponta, ganhando recompensas e economizando dinheiro. Somos
+            uma empresa que queremos que você tire do papel os seus sonhos e
+            coloque em prática. Aproveite a vida a do seu jeito e com controle.
+          </p>
+
+          <a
+            href="login.html"
+            class="btn btn-principal btn-lg px-3 py-2 me-sm-3 me-lg-4 mb-3"
+          >
+            Confira agora mesmo
+          </a>
+        </div>
+        <div class="col-md-7 s-info_card">
+          <div class="s-info_vantagens p-3 mb-3">
+            <div class="row">
+              <div class="col-md-2 align-self-center">
+                <div class="s-info-vantagens_bgicon">
+                  <img
+                    src="./image/Star.svg"
+                    class="s-info-vantagens_icone"
+                    alt="estrela brilhante verde água"
+                  />
+                </div>
+              </div>
+              <div class="col-md-10">
+                <div class="card-body">
+                  <h5 class="card-title mb-2 fw-bold">Vantagens</h5>
+                  <p class="card-text">
+                    Controle todos os seus cartões de uma forma simples em um
+                    lugar.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="s-info_vantagens p-3 mb-3">
+            <div class="row">
+              <div class="col-md-2 align-self-center">
+                <div class="s-info-vantagens_bgicon">
+                  <img
+                    src="./image/Shield.svg"
+                    class="s-info-vantagens_icone"
+                    alt="estrela brilhante verde água"
+                  />
+                </div>
+              </div>
+              <div class="col-md-10">
+                <div class="card-body">
+                  <h5 class="card-title mb-2 fw-bold">100% Seguro</h5>
+                  <p class="card-text">
+                    Uma forma e segura de você planejar os seus gastos e ver as
+                    transações das suas contas bancarias.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="s-info_vantagens p-3 mb-3">
+            <div class="row">
+              <div class="col-md-2 align-self-center">
+                <div class="s-info-vantagens_bgicon">
+                  <img
+                    src="./image/Send.svg"
+                    class="s-info-vantagens_icone"
+                    alt="estrela brilhante verde água"
+                  />
+                </div>
+              </div>
+              <div class="col-md-10">
+                <div class="card-body">
+                  <h5 class="card-title mb-2 fw-bold">Envio de Relatório</h5>
+                  <p class="card-text">
+                    Envie para o seus relátorios de gastos para os seus
+                    contadores de uma forma simples.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer container-fluid py-5">
+      <div class="container border-bottom">
+        <div class="row">
+          <div class="col-md-4 col-12">
+            <img
+              src="./image/Logo.svg"
+              alt="Logo da Fintech"
+              class="footer-logo"
+            />
+            <h3>Fintech</h3>
+            <p>
+              Somos uma startup de controle financeiro, pronto para te ajudar a
+              melhorar o seu controle do seu dinheiro para planejar a sua vida.
+            </p>
+          </div>
+          <div class="col-md-4 col-12">
+            <p class="fw-bold">Links</p>
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Sobre Fintech</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Soluções para você</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Logar</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="container py-3">
+        <p class="text-center">2022 Fintech. Todos os direitos reservados.</p>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+      integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
